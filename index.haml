@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:charset => "UTF-8"}/
+    %link{:href => "node_modules/bootstrap/dist/css/bootstrap.css", :rel => "stylesheet"}/
+    %link{:href => "all.css", :rel => "stylesheet"}/
+  %body
+    .buttons
+      %button.btn.btn-success.js-gen-keys Сгенерировать ключи
+      %button.btn.btn-success.js-encrypt Зашифровать
+      %button.btn.btn-success.js-decrypt Расшифровать
+
+    %script{src: 'use.js'}

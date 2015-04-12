@@ -1,0 +1,10 @@
+{
+  "name": "elgamal",
+  "main": "index.html",
+  "window": {
+    "title": "Эль Гамаль",
+    "toolbar": false,
+    "width": 460,
+    "height": 200
+  }
+}
